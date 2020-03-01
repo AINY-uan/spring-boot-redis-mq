@@ -10,9 +10,9 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 
 /**
- * @Author 阿拉丁省油的灯
- * @Date 2019-06-12 22:47
- * @Description 消费消息队列
+ * @author 阿拉丁省油的灯
+ * @date 2019-06-12 22:47
+ * @description 消费消息队列
  */
 @Slf4j
 @Component

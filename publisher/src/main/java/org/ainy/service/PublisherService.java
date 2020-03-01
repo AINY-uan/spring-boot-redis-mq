@@ -8,9 +8,9 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 
 /**
- * @Author 阿拉丁省油的灯
- * @Date 2019-06-12 22:39
- * @Description 消息队列发布者服务
+ * @author 阿拉丁省油的灯
+ * @date 2019-06-12 22:39
+ * @description 消息队列发布者服务
  */
 @Slf4j
 @Service

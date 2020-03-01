@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Author 阿拉丁省油的灯
- * @Date 2020-01-06 21:25
- * @Description 测试
+ * @author 阿拉丁省油的灯
+ * @date 2020-01-06 21:25
+ * @description 测试
  */
 @Slf4j
 @RestController

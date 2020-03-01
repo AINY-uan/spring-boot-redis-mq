@@ -6,9 +6,9 @@ import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 
 /**
- * @Author 阿拉丁省油的灯
- * @Date 2019-06-12 22:34
- * @Description 消息队列发布者配置
+ * @author 阿拉丁省油的灯
+ * @date 2019-06-12 22:34
+ * @description 消息队列发布者配置
  */
 @Configuration
 public class PublisherConfig {

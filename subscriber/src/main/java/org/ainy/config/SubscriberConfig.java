@@ -11,9 +11,9 @@ import org.springframework.data.redis.listener.RedisMessageListenerContainer;
 import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
 
 /**
- * @Author 阿拉丁省油的灯
- * @Date 2019-06-12 22:39
- * @Description 消息订阅者配置类
+ * @author 阿拉丁省油的灯
+ * @date 2019-06-12 22:39
+ * @description 消息订阅者配置类
  */
 @Configuration
 @AutoConfigureAfter({ConsumerX.class, ConsumerY.class})
@@ -27,7 +27,8 @@ public class SubscriberConfig {
      */
     @Bean
     public MessageListenerAdapter getMessageListenerAdapter(ConsumerX consumerX) {
-        return new MessageListenerAdapter(consumerX); //当没有继承MessageListener时需要写方法名字
+        //当没有继承MessageListener时需要写方法名字
+        return new MessageListenerAdapter(consumerX);
     }
 
 
