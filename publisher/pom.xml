@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>spring-boot-redis-mq</artifactId>
-        <groupId>org.example</groupId>
+        <groupId>org.ainy</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>publisher</artifactId>
 
-    <name>spring-boot-redis-mq</name>
+    <name>spring-boot-redis-mq-publisher</name>
     <url>https://ainy-uan.github.io/</url>
     <description>发布者</description>
 

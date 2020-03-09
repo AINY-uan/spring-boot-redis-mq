@@ -27,14 +27,15 @@ public class SubscriberConfig {
      */
     @Bean
     public MessageListenerAdapter getMessageListenerAdapter(ConsumerX consumerX) {
-        //当没有继承MessageListener时需要写方法名字
+
         return new MessageListenerAdapter(consumerX);
     }
 
 
 //    @Bean
 //    public MessageListenerAdapter getMessageListenerAdapter(ConsumerY consumerY){
-//        return new MessageListenerAdapter(consumerY, "receiveMessage"); //当没有继承MessageListener时需要写方法名字
+//        // 当没有继承MessageListener时需要写方法名字
+//        return new MessageListenerAdapter(consumerY, "receiveMessage");
 //    }
 
     /**
