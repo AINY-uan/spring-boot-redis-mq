@@ -25,7 +25,7 @@ public class PublisherService {
             redisTemplate.convertAndSend("MY_TOPIC", JSON.toJSONString(o));
             log.info("Message sent successfully");
         } catch (Exception e) {
-            log.error("Message Failure");
+            log.error("Message sent failure");
             log.error(e.getMessage());
         }
     }
